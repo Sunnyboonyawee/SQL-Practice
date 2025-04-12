@@ -4,4 +4,4 @@ SELECT
   last_name,
   gender
 FROM patients
-where gender = 'M'
+WHERE gender = 'M'
