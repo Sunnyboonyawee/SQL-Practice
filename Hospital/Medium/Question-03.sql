@@ -5,4 +5,4 @@ SELECT
 FROM patients
 WHERE
   first_name LIKE 's%s'
-  AND len(first_name) >= 6
+  AND LEN(first_name) >= 6
